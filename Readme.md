@@ -13,23 +13,22 @@
 
 ### 1. Backend (.NET)
 
-cd backend
-dotnet restore
-dotnet run
+- cd backend
+- dotnet restore
+- dotnet run
 
 ## API доступен на http://localhost:5102
 
 ### 2. Frontend (Vue 3)
 
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 # Приложение откроется на http://localhost:3000
 
 ### PHP Proxy (опционально)
 
-cd php-proxy
 php proxy.php
 
 # Выводит агрегированный JSON для внешних интеграций
