@@ -1,0 +1,21 @@
+@media (max-width: 1199px) {
+  .card-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --spacing-lg: 16px;
+    --spacing-xl: 24px;
+  }
+
+  .card-body {
+    padding: var(--spacing-md);
+  }
+
+  .navbar {
+    padding: var(--spacing-md);
+  }
+}

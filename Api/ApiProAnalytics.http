@@ -1,0 +1,32 @@
+### 1. Получить JWT токен (логин)
+POST https://localhost:7000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "ivan",
+  "password": "password123"
+}
+
+### 2. Статистика дашборда (требует токен)
+GET https://localhost:7000/api/dashboard/stats
+Authorization: Bearer {{token}}
+
+### 3. Мои задачи — все
+GET https://localhost:7000/api/dashboard/tasks
+Authorization: Bearer {{token}}
+
+### 4. Мои задачи — только "В работе"
+GET https://localhost:7000/api/dashboard/tasks?status=InProgress
+Authorization: Bearer {{token}}
+
+### 5. Команда
+GET https://localhost:7000/api/dashboard/team
+Authorization: Bearer {{token}}
+
+### 6. Активность команды
+GET https://localhost:7000/api/dashboard/activity
+Authorization: Bearer {{token}}
+
+### 7. Календарь (май 2024)
+GET https://localhost:7000/api/dashboard/calendar?year=2024&month=5
+Authorization: Bearer {{token}}
