@@ -17,7 +17,7 @@
 - dotnet restore
 - dotnet run
 
-## API доступен на http://localhost:5102
+ API доступен на http://localhost:5102
 
 ### 2. Frontend (Vue 3)
 
@@ -25,7 +25,7 @@
 - npm install
 - npm run dev
 
-# Приложение откроется на http://localhost:3000
+## Приложение откроется на http://localhost:3000
 
 ### PHP Proxy (опционально)
 
